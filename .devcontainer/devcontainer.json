@@ -1,0 +1,19 @@
+//devcontainer.json
+{
+  "name": "Juno Development Environment",
+
+  // Or use a Dockerfile or Docker Compose file. More info: https://containers.dev/guide/dockerfile
+  "build": {
+    "dockerfile": "Dockerfile"
+  },
+
+  // Features to add to the dev container. More info: https://containers.dev/features.
+  // "features": {},
+
+  "customizations": {
+    "vscode": {
+      "settings": {},
+      "extensions": ["rust-lang.rust-analyzer"]
+    }
+  }
+}
